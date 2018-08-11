@@ -1,0 +1,456 @@
+/**
+ * Float Layout Activity
+ **/
+
+
+.bodycontainer{
+  width:1250px;
+  margin:auto;
+}
+
+.portfoliobodyname{
+  width:960px;
+  margin:auto;
+}
+
+#myHeader
+{
+  margin-left: 150px;
+  width: 200px;
+  height:300 px;
+  background-color: teal;
+  color:white;
+  font-weight: bolder;
+  font-size: 24px;
+  padding-left: 20px;
+  padding-right: 15px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav
+{
+  float: right;
+  padding-top: 10px;
+  width: 300px;
+  height: 20px;
+  margin-bottom: 0px;
+  color: grey;
+  background-color: #ffffff;
+  margin-right: 100px;
+  margin-top: -30px;
+}
+
+a{
+  color:gray;
+  padding-left: 10px;
+  padding-right:20px;
+}
+
+body
+{
+  margin-left: 50px;
+  margin-right: 40px;
+}
+
+
+.img1 {
+  z-index: 1;
+  width: 1360px;
+  position: absolute;
+  margin-top: -8px;
+}
+
+.img2
+ {
+  z-index: 2;
+  width: 240px;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 70px;
+}
+
+.container
+{
+  
+  width: 1360px;
+  height: 500px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 0px;
+  
+}
+
+.container3{
+  width: 960px;
+  background-color: #ffffff;
+  height: auto;
+  margin-left: 150px;
+  margin-top: 50px;
+  margin-bottom: 200px;
+  z-index: 2;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  border-color: #dddddd;
+  float: left;
+}
+.container4{
+  width: 600px;
+  background-color: #ffffff;
+  height: 600px;
+  margin-left: 300px;
+  margin-top: 50px;
+  margin-bottom: 200px;
+  z-index: 2;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  border-color: #dddddd;
+  padding-right: 0px;
+ 
+}
+
+.iconimg {
+	width: 50px;
+	height: 50px;
+	margin: auto 5px;
+}
+
+
+.bgimagesize{
+  width:1250px;
+  height:700px;
+}
+
+.aboutme{
+  margin-left: 25px;
+  color:teal;
+  font-weight: bolder;
+  font-size: 20px; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 20px;
+  margin-bottom:  20px;
+  position: center;
+}
+
+li {
+    display: inline;
+}
+
+#hr1{
+  display: block;
+  height: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  background-color: gray;
+
+}
+
+
+#hr3{
+  display: block;
+  height: 4px;
+  margin-top: 700px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  background-color:teal;
+  width:1250px;
+  margin-left: 0px;
+
+
+}
+
+
+
+
+#hr2{
+  display: block;
+  height: 0.2px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+  
+  color: black;
+  background-color: black;
+}
+
+.myimage{
+  float:left;
+  width:300px;
+  margin-top: 15ps;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+p{
+  margin-left:25px;
+  margin-right: 25px;
+  text-align: justify;
+}
+
+.footer{
+width:1250px;
+height:40px;
+background-color: #666666;
+margin-top: 0px;
+color: white;
+text-align: center;
+padding-top: 20px;
+margin-bottom: 0px;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  margin-right:40px;
+}
+button {
+  background-color: teal;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+  
+
+
+.contactform{
+  width: 550px;
+  padding-left:30px;
+}
+
+.row{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 250px;
+
+}
+
+.imagesize{
+  width:50px;
+  height:50px;
+}
+
+.contentleft{
+  float:left;
+  width:120px;
+  height:120px;
+  padding-bottom: 20px;
+  margin-left: 30px; 
+}
+
+  
+
+.contentright{
+  float:left;
+  margin-left:200px;
+  width:120px;
+  height:120px; 
+ 
+}
+
+.sideicon {
+	margin: 20px center; } 
+
+
+#mtextHeader
+{
+ 
+  width: 120px;
+  height:50 px;
+  background-color: teal;
+  color:white;
+  font-weight: bolder;
+  font-size: 12px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position:absolute;
+  margin-left:30px;
+  margin-top:100px;
+  text-align: center;
+}
+    
+/* #textHeader2
+{
+ 
+  width: 120px;
+  height:50 px;
+  background-color: teal;
+  color:white;
+  font-weight: bolder;
+  font-size: 12px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position:absolute;
+  margin-left:350px;
+  margin-top:100px;
+  text-align: center;
+
+} */
+.container, .sidebar{
+  background-color: red;
+  position: absolute;
+}
+
+ 
+
+@media screen and (max-width: 980px) {
+	.portfoliobodyname {
+		width: 740px;
+	}
+
+	.container {
+		width: 740px;
+	}
+
+	.container3 {
+		width: 430px;
+	}
+
+ 
+	.sidebar {
+    width: 270px;
+    
+	}
+
+	.myimage {
+		float: none;
+		width: 100%;
+		height: auto;
+		margin: 10px 0;
+	}
+
+	.contentleft, .contentright {
+		float: none;
+	}
+
+	.imagesize {
+		width: 100%;
+		height: auto;
+	}
+
+	#mtextHeader {
+		width: 100%;
+  }
+  
+  
+}
+
+@media screen and (max-width: 768px) {
+	.portfoliobodyname {
+		width: 620px;
+	}
+
+	.container {
+		width: 620px;
+		margin: 30px auto;
+	}
+
+  .container3 {
+		float: none;
+		width: 100%;
+  }
+
+
+	.sidebar {
+		float: none;
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	.myimage {
+		float: left;
+		width: 300px;
+		height: 200px;		
+		margin: 10px 30px 10px 0;
+	}
+
+	.contentleft {
+		float: left;
+	}
+
+	.contentright {
+		float: right;
+	}
+
+	.imagesize {
+		width: 270px;
+		height: 190px;
+	}
+
+	#mtextHeader {
+		width: 270px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	nav ul li {
+		width: 33.3%
+	}
+
+	.portfoliobodyname {
+		width: 100%;
+	}
+
+	#myHeader, nav {
+		float: none;
+		width: 100%;
+	}
+
+	.container {
+		width: 90%;
+	}
+
+	.container3 {
+		float: none;
+		width: 100%;
+  }
+  
+  
+	.sidebar {
+		float: none;
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	.myimage {
+		float: none;
+		width: 100%;
+		height: auto;
+		margin: 10px 0;
+	}
+
+	.contentleft, .contenyright {
+		float: none;
+	}
+
+	.imagesize {
+		width: 100%;
+		height: auto;
+	}
+
+	#mtextHeader {
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
